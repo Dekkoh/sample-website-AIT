@@ -50,3 +50,22 @@ body {
     margin: 0px;
     text-shadow: 0px 0px 2px #333333;
 }
+
+.card-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+}
+
+.card {
+
+}
+
+.card-image {
+    max-width: 100%;
+    display: block;
+    aspect-ratio: 3/4;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
